@@ -14,8 +14,6 @@ def is_strip(y):
     for element in x:
         if element==ASSAULT:
             count += 1
-    print(count)
-    return z
-
-
+        elif element==ROBERY
+        
 print(is_strip(y))
