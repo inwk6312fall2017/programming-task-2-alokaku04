@@ -3,8 +3,10 @@ y=[]
 for line in f:
     q=f.readline()
     y.append(q)
+
+
 def is_strip(y):
-    x=[]
+    x = []
     for element in y:
         element.strip()
         x.append(element)
@@ -12,6 +14,8 @@ def is_strip(y):
     for element in x:
         if element==ASSAULT:
             count += 1
-        z.append(element, count)
+    print(count)
     return z
+
+
 print(is_strip(y))
