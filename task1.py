@@ -1,4 +1,6 @@
 f=open("Crime.csv","r")
+y=[]
 for line in f:
-    y=f.read()
+    q=f.readline()
+    y.append(q)
 print(y)
