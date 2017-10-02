@@ -8,5 +8,10 @@ def is_strip(y):
     for element in y:
         element.strip()
         x.append(element)
-    return x
+    count = 0
+    for element in x:
+        if element==ASSAULT:
+            count += 1
+        z.append(element, count)
+    return z
 print(is_strip(y))
